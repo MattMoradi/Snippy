@@ -1,24 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Snippy
 {
-    public partial class Form1 : Form
+    public partial class Form1 : MetroFramework.Forms.MetroForm
     {
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void btnCapture_Click(object sender, EventArgs e)
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+       
+
+      private void btnCapture_Click(object sender, EventArgs e)
         {
             Bitmap btm = new Bitmap(Screen.PrimaryScreen.Bounds.Width, Screen.PrimaryScreen.Bounds.Height);
             Graphics grph = Graphics.FromImage(btm);
@@ -42,6 +42,24 @@ namespace Snippy
         {
             Thread t = new Thread(Capture);
             t.Start();
+        }
+
+        private void btnStopRecord_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Thread t = new Thread(Capture);
+               
+            }
+            catch
+            {
+                //
+            }
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
