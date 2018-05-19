@@ -49,7 +49,7 @@ namespace Snippy
             try
             {
                 Thread t = new Thread(Capture);
-               
+                t.Abort(); 
             }
             catch
             {
