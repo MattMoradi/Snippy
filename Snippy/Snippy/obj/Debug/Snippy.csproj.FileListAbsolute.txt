@@ -1,0 +1,12 @@
+C:\Users\Mat\Source\Repos\Snippy\Snippy\Snippy\bin\Debug\Snippy.exe.config
+C:\Users\Mat\Source\Repos\Snippy\Snippy\Snippy\bin\Debug\Snippy.exe
+C:\Users\Mat\Source\Repos\Snippy\Snippy\Snippy\bin\Debug\Snippy.pdb
+C:\Users\Mat\Source\Repos\Snippy\Snippy\Snippy\bin\Debug\MetroFramework.Design.dll
+C:\Users\Mat\Source\Repos\Snippy\Snippy\Snippy\bin\Debug\MetroFramework.dll
+C:\Users\Mat\Source\Repos\Snippy\Snippy\Snippy\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Mat\Source\Repos\Snippy\Snippy\Snippy\obj\Debug\Snippy.csprojResolveAssemblyReference.cache
+C:\Users\Mat\Source\Repos\Snippy\Snippy\Snippy\obj\Debug\Snippy.Form1.resources
+C:\Users\Mat\Source\Repos\Snippy\Snippy\Snippy\obj\Debug\Snippy.Properties.Resources.resources
+C:\Users\Mat\Source\Repos\Snippy\Snippy\Snippy\obj\Debug\Snippy.csproj.GenerateResource.Cache
+C:\Users\Mat\Source\Repos\Snippy\Snippy\Snippy\obj\Debug\Snippy.exe
+C:\Users\Mat\Source\Repos\Snippy\Snippy\Snippy\obj\Debug\Snippy.pdb
